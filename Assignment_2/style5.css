@@ -1,0 +1,127 @@
+:root {
+  --default-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+    "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+    "Source Han Sans CN", sans-serif;
+}
+
+.main-container {
+  overflow: hidden;
+}
+
+.main-container,
+.main-container * {
+  box-sizing: border-box;
+}
+
+input,
+select,
+textarea,
+button {
+  outline: 0;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: nowrap;
+  gap: 73px;
+  position: relative;
+  width: 1440px;
+  height: 1251px;
+  margin: 0 auto;
+  padding: 182px 0 0 0;
+}
+.quality-plants-and-curated-goods {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+  width: 1336px;
+  height: 258px;
+  color: #000000;
+  font-family: Lufga, var(--default-font-family);
+  font-size: 108.96453857421875px;
+  font-weight: 800;
+  line-height: 128.578px;
+  text-align: center;
+  letter-spacing: -5.45px;
+  z-index: 1;
+}
+.carefully-curated-selection {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+  width: 937px;
+  height: 69px;
+  color: #131313;
+  font-family: Lufga, var(--default-font-family);
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 23.49px;
+  text-align: center;
+  letter-spacing: 0.18px;
+  z-index: 2;
+}
+.frame-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: nowrap;
+  flex-shrink: 0;
+  position: relative;
+  width: 807px;
+  z-index: 3;
+}
+.union {
+  flex-shrink: 0;
+  position: relative;
+  width: 807px;
+  height: 470px;
+  background: url(./assets/images/ddc227b3-bc5c-4a80-980f-d7ecf75cdc8d.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 4;
+}
+.frame-2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+  flex-shrink: 0;
+  gap: 10px;
+  position: absolute;
+  width: 172px;
+  height: 172px;
+  top: 50%;
+  left: 50%;
+  padding: 67px 73px 67px 73px;
+  background: rgba(0, 0, 0, 0.2);
+  transform: translate(-50%, -50.05%);
+  z-index: 5;
+  overflow: hidden;
+  border-radius: 100px;
+  backdrop-filter: blur(7.5px);
+}
+.vuesax-bold-play {
+  flex-shrink: 0;
+  position: relative;
+  width: 62px;
+  height: 62px;
+  z-index: 6;
+}
+.vuesax-bold-play-3 {
+  position: absolute;
+  width: 62px;
+  height: 62px;
+  top: 0;
+  left: 0;
+  background: url(./assets/images/368951d3-2763-41d5-b1a4-0ec22e4de812.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 7;
+}
