@@ -1,0 +1,53 @@
+:root {
+  --default-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+    "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+    "Source Han Sans CN", sans-serif;
+}
+
+.main-container {
+  overflow: hidden;
+}
+
+.main-container,
+.main-container * {
+  box-sizing: border-box;
+}
+
+input,
+select,
+textarea,
+button {
+  outline: 0;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: nowrap;
+  gap: 10px;
+  position: relative;
+  width: 1440px;
+  height: 794.919px;
+  margin: 0 auto;
+  padding: 10px 10px 10px 10px;
+  overflow: hidden;
+}
+.sub-component {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: nowrap;
+  flex-shrink: 0;
+  gap: 53px;
+  position: relative;
+  width: 1420px;
+  height: 774.919px;
+  padding: 20px 20px 20px 20px;
+  background: url(./assets/images/9c1f8952-710e-4423-93d8-6947ae2a7b03.png)
+    no-repeat center;
+  background-size: cover;
+  overflow: hidden;
+  border-radius: 35px;
+}
